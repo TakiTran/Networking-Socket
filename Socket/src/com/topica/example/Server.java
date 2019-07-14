@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class Server {
 	private static final int PORT_SERVER = 2040;
-	private static final int FILE_SIZE = 1 * 1024;
+	private static final int FILE_SIZE = 10 * 1024;
 	private static final String SOURCE_FILE = "server-output/";
 	private static final String MESSAGE_WRITE_FILE = "Writing file from clinet...";
 	private static final String MESSAGE_WRITE_FILE_SUCCESS = "Writing file success!";
